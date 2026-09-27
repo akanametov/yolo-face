@@ -28,10 +28,9 @@ classification tasks.
 
 ## 🔥🔥🔥 Update
 
-- ✅ **New series of YOLOv12-n/s/m (builder) models for construction workers detection [01.2026]** 
-- ✅ **ONNX YOLOv12-n/s/m (builder) trained on custom dataset [01.2026]** 
-- ✅ **ONNX YOLOv12-n/s/m (face) trained on WIDERFace [12.2025]** 
-- ✅ **ONNX YOLOv8-n/m (drone, football, parking) [12.2025]**
+- ✅ **YOLO26-n/s (person) trained on CrowdHuman [09.2026]** 
+- ✅ **YOLO26-n/s (face) trained on WIDERFace [09.2025]**
+- ✅ **New series of YOLOv12-n/s/m (builder) models for construction workers detection [01.2026]**
 
 ## Installation
 
@@ -48,61 +47,66 @@ cd yolo-face
 
 # Models
 
-[`yolov12n-face.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov12n-face.pt)
-[`yolov12s-face.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov12s-face.pt)
-[`yolov12m-face.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov12m-face.pt)
-[`yolov12l-face.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov12l-face.pt)
+[`yolo26s-person.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolo26s-person.pt)
+[`yolo26n-person.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolo26n-person.pt)
+[`yolo26s-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolo26s-face.pt)
+[`yolo26n-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolo26n-face.pt)
 
-[`yolov11n-face.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov11n-face.pt)
-[`yolov11s-face.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov11s-face.pt)
-[`yolov11m-face.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov11m-face.pt)
-[`yolov11l-face.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov11l-face.pt)
+[`yolov12n-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov12n-face.pt)
+[`yolov12s-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov12s-face.pt)
+[`yolov12m-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov12m-face.pt)
+[`yolov12l-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov12l-face.pt)
 
-[`yolov10n-face.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov10n-face.pt)
-[`yolov10s-face.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov10s-face.pt)
-[`yolov10m-face.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov10m-face.pt)
-[`yolov10l-face.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov10l-face.pt)
+[`yolov11n-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov11n-face.pt)
+[`yolov11s-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov11s-face.pt)
+[`yolov11m-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov11m-face.pt)
+[`yolov11l-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov11l-face.pt)
 
-[`yolov8n-face.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov8n-face.pt)
-[`yolov8m-face.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov8m-face.pt)
-[`yolov8l-face.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov8l-face.pt)
+[`yolov10n-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov10n-face.pt)
+[`yolov10s-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov10s-face.pt)
+[`yolov10m-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov10m-face.pt)
+[`yolov10l-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov10l-face.pt)
 
-[`yolov6n-face.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov6n-face.pt)
-[`yolov6m-face.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov6m-face.pt)
+[`yolov8n-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8n-face.pt)
+[`yolov8m-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8m-face.pt)
+[`yolov8l-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8l-face.pt)
 
-[`yolov12n-builder.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov12n-builder.pt)
-[`yolov12s-builder.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov12s-builder.pt)
-[`yolov12m-builder.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov12m-builder.pt)
+[`yolov6n-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov6n-face.pt)
+[`yolov6m-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov6m-face.pt)
 
-[`yolov8n-person.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov8n-person.pt)
+[`yolov12n-builder.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov12n-builder.pt)
+[`yolov12s-builder.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov12s-builder.pt)
+[`yolov12m-builder.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov12m-builder.pt)
 
-[`yolov8n-football.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov8n-football.pt)
-[`yolov8m-football.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov8m-football.pt)
+[`yolov8n-person.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8n-person.pt)
 
-[`yolov8n-parking.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov8n-parking.pt)
-[`yolov8m-parking.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov8m-parking.pt)
+[`yolov8n-football.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8n-football.pt)
+[`yolov8m-football.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8m-football.pt)
 
-[`yolov8n-drone.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov8n-drone.pt)
-[`yolov8m-drone.pt`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov8m-drone.pt)
+[`yolov8n-parking.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8n-parking.pt)
+[`yolov8m-parking.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8m-parking.pt)
+
+[`yolov8n-drone.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8n-drone.pt)
+[`yolov8m-drone.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8m-drone.pt)
 
 # ONNX models
 
-[`yolov12n-face.onnx`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov12n-face.onnx)
-[`yolov12s-face.onnx`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov12s-face.onnx)
-[`yolov12m-face.onnx`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov12m-face.onnx)
+[`yolov12n-face.onnx`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov12n-face.onnx)
+[`yolov12s-face.onnx`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov12s-face.onnx)
+[`yolov12m-face.onnx`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov12m-face.onnx)
 
-[`yolov12n-builder.onnx`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov12n-builder.onnx)
-[`yolov12s-builder.onnx`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov12s-builder.onnx)
-[`yolov12m-builder.onnx`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov12m-builder.onnx)
+[`yolov12n-builder.onnx`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov12n-builder.onnx)
+[`yolov12s-builder.onnx`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov12s-builder.onnx)
+[`yolov12m-builder.onnx`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov12m-builder.onnx)
 
-[`yolov8n-drone.onnx`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov8n-drone.onnx)
-[`yolov8m-drone.onnx`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov8m-drone.onnx)
+[`yolov8n-drone.onnx`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8n-drone.onnx)
+[`yolov8m-drone.onnx`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8m-drone.onnx)
 
-[`yolov8n-football.onnx`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov8n-football.onnx)
-[`yolov8m-football.onnx`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov8m-football.onnx)
+[`yolov8n-football.onnx`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8n-football.onnx)
+[`yolov8m-football.onnx`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8m-football.onnx)
 
-[`yolov8n-parking.onnx`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov8n-parking.onnx)
-[`yolov8m-parking.onnx`](https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov8m-parking.onnx)
+[`yolov8n-parking.onnx`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8n-parking.onnx)
+[`yolov8m-parking.onnx`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8m-parking.onnx)
 
 To convert models to `.onnx` format:
 ```
@@ -119,7 +123,7 @@ model.export(format="onnx", dynamic=False, nms=True, device="cuda:0")
 
 ## 🌟Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=YapaLab/yolo-face&type=Date)](https://www.star-history.com/#YapaLab/yolo-face&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=akanametov/yolo-face&type=Date)](https://www.star-history.com/#akanametov/yolo-face&Date)
 
 
 </details>
