@@ -7,7 +7,6 @@
 <br>
 
 <div>
-    <a href="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yaml"><img src="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yaml/badge.svg" alt="Ultralytics CI"></a>
     <a href="https://zenodo.org/badge/latestdoi/264818686"><img src="https://zenodo.org/badge/264818686.svg" alt="YOLOv8 Citation"></a>
     <a href="https://hub.docker.com/r/ultralytics/ultralytics"><img src="https://img.shields.io/docker/pulls/ultralytics/ultralytics?logo=docker" alt="Docker Pulls"></a>
     <br>
@@ -17,20 +16,27 @@
   </div>
 <br>
 
-[Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics), developed by [Ultralytics](https://ultralytics.com),
-is a cutting-edge, state-of-the-art (SOTA) model that builds upon the success of previous YOLO versions and introduces
-new features and improvements to further boost performance and flexibility. YOLOv8 is designed to be fast, accurate, and
-easy to use, making it an excellent choice for a wide range of object detection, image segmentation and image
-classification tasks.
-
 <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/yolo-comparison-plots.png"></a>
 </div>
 
 ## 🔥🔥🔥 Update
 
-- ✅ **YOLO26-n/s (person) trained on CrowdHuman [09.2026]** 
-- ✅ **YOLO26-n/s (face) trained on WIDERFace [09.2025]**
-- ✅ **New series of YOLOv12-n/s/m (builder) models for construction workers detection [01.2026]**
+- ✅ **YOLO26-m (person) trained on CrowdHuman [11.2026]** 
+- ✅ **YOLO26-m (face) trained on WIDERFace [11.2026]**
+
+
+Simply integrate models for SmartCity purposes (parking zone/drones detection/surveilance cameras) or safety in construction areas:
+<div align="center">
+    <a href="./">
+        <img src="./examples/smartcity1.JPG" width="30%"/>
+    </a>
+    <a href="./">
+        <img src="./examples/smartcity2.JPG" width="35%"/>
+    </a>
+    <a href="./">
+        <img src="./examples/builders.JPG" width="30%"/>
+    </a>
+</div>
 
 ## Installation
 
@@ -47,8 +53,7 @@ cd yolo-face
 
 # Models
 
-[`yolo26s-person.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolo26s-person.pt)
-[`yolo26n-person.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolo26n-person.pt)
+[`yolo26m-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolo26m-face.pt)
 [`yolo26s-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolo26s-face.pt)
 [`yolo26n-face.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolo26n-face.pt)
 
@@ -78,6 +83,9 @@ cd yolo-face
 [`yolov12s-builder.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov12s-builder.pt)
 [`yolov12m-builder.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov12m-builder.pt)
 
+[`yolo26m-person.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolo26m-person.pt)
+[`yolo26s-person.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolo26s-person.pt)
+[`yolo26n-person.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolo26n-person.pt)
 [`yolov8n-person.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8n-person.pt)
 
 [`yolov8n-football.pt`](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8n-football.pt)
