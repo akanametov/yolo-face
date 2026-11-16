@@ -31,7 +31,7 @@ Simply integrate models for SmartCity purposes (parking zone/drones detection/su
         <img src="./examples/smartcity1.JPG" width="30%"/>
     </a>
     <a href="./">
-        <img src="./examples/smartcity2.JPG" width="35%"/>
+        <img src="./examples/smartcity2.JPG" width="30%"/>
     </a>
     <a href="./">
         <img src="./examples/builders.JPG" width="30%"/>
