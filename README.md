@@ -29,10 +29,10 @@ Simply integrate models for SmartCity purposes (parking zone/drones detection/su
 
 <div align="center">
     <a href="./">
-        <img src="./examples/smartcity1.jpg" width="30%"/>
+        <img src="./examples/smartcity1.JPG" width="30%"/>
     </a>
     <a href="./">
-        <img src="./examples/smartcity2.jpg" width="30%"/>
+        <img src="./examples/smartcity2.JPG" width="30%"/>
     </a>
     <a href="./">
         <img src="./examples/builders.jpg" width="30%"/>
